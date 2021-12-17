@@ -1,0 +1,38 @@
+{
+    "name": "purple-deep-black",
+    "displayName": "Purple(Deep-Black);",
+    "description": "A deep black approach with a noble touch.",
+    "version": "0.0.5",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "publisher": "fishappy0",
+    "icon": "icon/icon.png",
+    "categories": [
+        "Themes"
+    ],
+	"keywords": [
+		"Dark",
+		"OLED Black",
+		"Deep Black",
+		"Purple deep black",
+		"Purple",
+		"Deep black purple",
+		"OLED Purple",
+		"fishappy0"
+	],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Purple(Deep-Black);",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Purple(Deep-Black);.json"
+            },
+            {
+                "label": "Purple(Dark-Black);",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Purple(Dark-Black);.json"
+            }
+        ]
+    }
+}
